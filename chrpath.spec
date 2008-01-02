@@ -6,6 +6,7 @@ Summary: 	Dynamic library load path (rpath) alterer
 Url:		http://www.tux.org/pub/X-Windows/ftp.hungry.com/chrpath/
 Source:		%Url/%name-%version.tar.bz2
 License: 	GPL
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Chrpath allows you to modify the dynamic library load path (rpath) of
