@@ -1,6 +1,6 @@
 Name: 		chrpath
 Version: 	0.13
-Release: 	%mkrel 9
+Release: 	%mkrel 10
 Group: 		Development/Other
 Summary: 	Dynamic library load path (rpath) alterer
 Url:		http://www.tux.org/pub/X-Windows/ftp.hungry.com/chrpath/
