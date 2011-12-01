@@ -22,12 +22,12 @@ is supported.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall 
-rm -fr $RPM_BUILD_ROOT/usr/doc
+rm -fr %{buildroot}/usr/doc
 
 %clean
-rm -rf $RPM_BUILD_ROOT;
+rm -rf %{buildroot};
 
 %files 
 %defattr (-, root, root,755)
