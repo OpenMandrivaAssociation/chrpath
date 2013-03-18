@@ -6,6 +6,7 @@ Group: 		Development/Other
 License: 	GPLv2
 Url:		http://www.tux.org/pub/X-Windows/ftp.hungry.com/chrpath/
 Source0:	http://www.tux.org/pub/X-Windows/ftp.hungry.com/chrpath/%{name}-%{version}.tar.bz2
+Patch0:		chrpath-aarch64.patch
 
 %description
 Chrpath allows you to modify the dynamic library load path (rpath) of
@@ -14,6 +15,7 @@ is supported.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure2_5x
