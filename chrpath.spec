@@ -1,7 +1,7 @@
 Summary: 	Dynamic library load path (rpath) alterer
 Name: 		chrpath
 Version: 	0.13
-Release: 	12
+Release: 	13
 Group: 		Development/Other
 License: 	GPLv2
 Url:		http://www.tux.org/pub/X-Windows/ftp.hungry.com/chrpath/
