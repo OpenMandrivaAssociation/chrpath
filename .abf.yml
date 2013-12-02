@@ -1,4 +1,5 @@
 removed_sources:
   chrpath-0.13.tar.bz2: 852eee180d835ef7be1c93d6dde4175c058e8a5f
-sources:
   chrpath-0.14.tar.gz: 8a8a4f9282cbb8c12205040c915b25db06daf408
+sources:
+  chrpath-0.15.tar.gz: 67b561ae154f38a3c75072e4ca546dbbb7c4fdeb
