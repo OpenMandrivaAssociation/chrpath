@@ -1,11 +1,11 @@
 Summary:	Dynamic library load path (rpath) alterer
 Name:		chrpath
-Version:	0.15
-Release:	11
+Version:	0.16
+Release:	1
 Group:		Development/Other
 License:	GPLv2
 Url:		https://alioth.debian.org/projects/chrpath/
-Source0:	https://alioth.debian.org/frs/download.php/file/3648/%{name}-%{version}.tar.gz
+Source0:	http://cdn-fastly.deb.debian.org/debian/pool/main/c/chrpath/%{name}_%{version}.orig.tar.gz
 
 %description
 Chrpath allows you to modify the dynamic library load path (rpath) of
