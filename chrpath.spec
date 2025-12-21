@@ -7,6 +7,11 @@ License:	GPLv2
 Url:		https://alioth.debian.org/projects/chrpath/
 Source0:	http://cdn-fastly.deb.debian.org/debian/pool/main/c/chrpath/%{name}_%{version}.orig.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Chrpath allows you to modify the dynamic library load path (rpath) of
 compiled programs.  Currently, only removing and modifying the rpath
