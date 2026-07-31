@@ -1,7 +1,7 @@
 Summary:	Dynamic library load path (rpath) alterer
 Name:		chrpath
-Version:	0.16
-Release:	2
+Version:	0.18
+Release:	1
 Group:		Development/Other
 License:	GPLv2
 Url:		https://alioth.debian.org/projects/chrpath/
@@ -18,7 +18,7 @@ compiled programs.  Currently, only removing and modifying the rpath
 is supported.
 
 %prep
-%autosetup -p1
+%autosetup -p1 -n chrpath
 
 %build
 %configure
