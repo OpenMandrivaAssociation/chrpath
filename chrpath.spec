@@ -1,7 +1,7 @@
 Summary:	Dynamic library load path (rpath) alterer
 Name:		chrpath
 Version:	0.18
-Release:	1
+Release:	2
 Group:		Development/Other
 License:	GPLv2
 Url:		https://alioth.debian.org/projects/chrpath/
@@ -21,6 +21,9 @@ is supported.
 %autosetup -p1 -n chrpath
 
 %build
+# AM_CONFIG_HEADER is gone; regenerate the shipped autotools files.
+sed -i 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' configure.ac
+autoreconf -fi
 %configure
 %make_build
 
